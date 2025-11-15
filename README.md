@@ -1,9 +1,9 @@
 # Tugas-Pemograman-p9
 Halo semuanya terima kasih sudah mampir di github ini 
 
-pada pertemuan kali ini kita akan membahas materi tentang list kode pemograman 
+Pada pertemuan kali ini kita akan membahas materi tentang list kode pemograman 
 
-izin kan saya memperkenalkan diri 
+Izin kan saya memperkenalkan diri 
 
 NAMA	: MAULANA ISNAN IBRAHIM
 
@@ -21,7 +21,6 @@ UTS: 35%
 UAS: 35%
 
 Flowchart Program
-flowchart 
 
     A([START]) --> B[Inisialisasi list data_mahasiswa]
     
@@ -74,27 +73,35 @@ flowchart
     U --> V([END])
     
 Penjelasan Program
+
 1. Struktur Data
+   
 Program menggunakan list sebagai wadah utama untuk menyimpan data mahasiswa.
 
 Setiap mahasiswa disimpan dalam bentuk dictionary dengan key:
 
-nama: Nama mahasiswa
-nim: Nomor Induk Mahasiswa
-tugas: Nilai tugas
-uts: Nilai UTS
-uas: Nilai UAS
-nilai_akhir: Hasil perhitungan nilai akhir
+Nama: Nama mahasiswa
+
+Nim: Nomor Induk Mahasiswa
+
+Tugas: Nilai tugas
+
+Uts: Nilai UTS
+
+Uas: Nilai UAS
+
+Nilai_akhir: Hasil perhitungan nilai akhir
 
 2. Alur Program
+   
 A. Inisialisasi
 pythondata_mahasiswa = []
 Membuat list kosong untuk menampung data mahasiswa.
 
 B. Input Data (Perulangan)
 Program menggunakan while True untuk perulangan tanpa batas hingga user memilih untuk berhenti.
-Proses input:
 
+Proses input:
 Input nama dan NIM mahasiswa
 Input nilai tugas, UTS, dan UAS (dengan validasi)
 Jika input tidak valid (bukan angka), program menampilkan error dan meminta input ulang
@@ -126,10 +133,15 @@ Jika list kosong: tampilkan "Tidak ada data mahasiswa"
 Jika ada data: tampilkan semua data menggunakan perulangan for dengan enumerate() untuk penomoran otomatis
 
 3. Fitur Program
+   
 ✅ Input data unlimited - User dapat menambahkan data sebanyak-banyaknya
+
 ✅ Validasi input - Program memeriksa apakah nilai yang diinput adalah angka
+
 ✅ Perhitungan otomatis - Nilai akhir dihitung secara otomatis
+
 ✅ Tampilan terstruktur - Data ditampilkan dengan format yang rapi dan mudah dibaca
+
 ✅ Error handling - Program tidak crash saat input salah
 
 4. Contoh Output
@@ -139,9 +151,13 @@ PROGRAM INPUT DATA MAHASISWA
 
 ------------------------------------------------------------
 Nama Mahasiswa: Budi Santoso
+
 NIM: 2024001
+
 Nilai Tugas (0-100): 85
+
 Nilai UTS (0-100): 90
+
 Nilai UAS (0-100): 88
 
 Data berhasil ditambahkan! Nilai Akhir: 87.75
@@ -153,12 +169,19 @@ DAFTAR DATA MAHASISWA
 ============================================================
 
 Data Mahasiswa ke-1:
+
 Nama         : Budi Santoso
+
 NIM          : 2024001
+
 Nilai Tugas  : 85.00
+
 Nilai UTS    : 90.00
+
 Nilai UAS    : 88.00
+
 Nilai Akhir  : 87.75
+
 ------------------------------------------------------------
 
 Program selesai. Terima kasih!
