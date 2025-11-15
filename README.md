@@ -1,7 +1,20 @@
 # Tugas-Pemograman-p9
+Halo semuanya terima kasih sudah mampir di github ini 
+
+pada pertemuan kali ini kita akan membahas materi tentang list kode pemograman 
+
+izin kan saya memperkenalkan diri 
+
+NAMA	: MAULANA ISNAN IBRAHIM
+
+NIM		: 312510355
+
+DOSEN	: Agung Nugroho, S.Kom., M.Kom. 
+
 Program Input Data Mahasiswa
 Deskripsi
-Program sederhana untuk menginput data mahasiswa beserta nilai-nilainya dan menghitung nilai akhir berdasarkan komponen:
+Program sederhana untuk menginput data mahasiswa beserta nilai-nilainya
+dan menghitung nilai akhir berdasarkan komponen:
 
 Tugas: 30%
 UTS: 35%
