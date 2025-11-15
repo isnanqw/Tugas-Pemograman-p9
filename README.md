@@ -9,6 +9,7 @@ UAS: 35%
 
 Flowchart Program
 mermaidflowchart TD
+
     A([START]) --> B[Inisialisasi list data_mahasiswa]
     
     B --> C[Tampilkan header program]
