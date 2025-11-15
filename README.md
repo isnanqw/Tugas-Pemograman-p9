@@ -8,7 +8,7 @@ UTS: 35%
 UAS: 35%
 
 Flowchart Program
-mermaidflowchart TD
+flowchart 
 
     A([START]) --> B[Inisialisasi list data_mahasiswa]
     
