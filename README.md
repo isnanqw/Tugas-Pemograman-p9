@@ -75,7 +75,9 @@ flowchart
     
 Penjelasan Program
 1. Struktur Data
-Program menggunakan list sebagai wadah utama untuk menyimpan data mahasiswa. Setiap mahasiswa disimpan dalam bentuk dictionary dengan key:
+Program menggunakan list sebagai wadah utama untuk menyimpan data mahasiswa.
+
+Setiap mahasiswa disimpan dalam bentuk dictionary dengan key:
 
 nama: Nama mahasiswa
 nim: Nomor Induk Mahasiswa
@@ -88,6 +90,7 @@ nilai_akhir: Hasil perhitungan nilai akhir
 A. Inisialisasi
 pythondata_mahasiswa = []
 Membuat list kosong untuk menampung data mahasiswa.
+
 B. Input Data (Perulangan)
 Program menggunakan while True untuk perulangan tanpa batas hingga user memilih untuk berhenti.
 Proses input:
@@ -128,6 +131,7 @@ Jika ada data: tampilkan semua data menggunakan perulangan for dengan enumerate(
 ✅ Perhitungan otomatis - Nilai akhir dihitung secara otomatis
 ✅ Tampilan terstruktur - Data ditampilkan dengan format yang rapi dan mudah dibaca
 ✅ Error handling - Program tidak crash saat input salah
+
 4. Contoh Output
 ============================================================
 PROGRAM INPUT DATA MAHASISWA
